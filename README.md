@@ -44,3 +44,6 @@ Official Mys DIscord : .gg/djMQRCNAAZ
 
 > [!WARNING]
 > MYS.CLIENT IS NOT VIABLE FOR ANY BANS / SUSPENSIONS OR TERMINATIONS ON ROBLOX.
+
+
+Mys.Client © 2024 by mys is licensed under CC BY-NC-ND 4.0 
