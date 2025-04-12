@@ -1,1 +1,1 @@
-Join .gg/djMQRCNAAZ
+print("Join .gg/djMQRCNAAZ")
