@@ -1,6 +1,7 @@
 -- whitelist.lua
 whitelist = {
     ["01xMYS"] = "owner",
+    ["notmys67"] = "owner",
     ["01xSILENCE"] = "owner",
     ["Strixxsy"] = "owner",
     ["e2edeq"] = "CoOwner",
