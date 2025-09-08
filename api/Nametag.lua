@@ -14,14 +14,14 @@ local CoOwner = {}
 local MysStaff = {}
 local Advertisers = {}
 local Helper = {}
-local Giveaway1 = {"Dupersigmadupe"}
+local Giveaway1 = {"Dupersigmadupe", "CrazeSonic23"}
 
 local RankColors = {
     ["mys.owner"] = { primary = Color3.fromRGB(0, 0, 0), accent = Color3.fromRGB(255, 0, 0) },
     ["mys.co-owner"] = { primary = Color3.fromRGB(0, 0, 0), accent = Color3.fromRGB(138, 43, 226) },
     ["mys.staff"] = { primary = Color3.fromRGB(0, 0, 0), accent = Color3.fromRGB(255, 252, 132) },
     ["mys.advertiser"] = { primary = Color3.fromRGB(0, 0, 0), accent = Color3.fromRGB(255, 69, 0) },
-    ["mys.900"] = { primary = Color3.fromRGB(0, 0, 0), accent = Color3.fromRGB(0, 150, 209) },
+    ["I Like Feet"] = { primary = Color3.fromRGB(0, 0, 0), accent = Color3.fromRGB(225, 225, 225) },
     ["mys.helper"] = { primary = Color3.fromRGB(0, 0, 0), accent = Color3.fromRGB(169, 169, 169) },
     ["mys.client user"] = { primary = Color3.fromRGB(0, 0, 0), accent = Color3.fromRGB(102, 0, 255) },
     ["mys.premium user"] = { primary = Color3.fromRGB(0, 0, 0), accent = Color3.fromRGB(16, 139, 211) }
@@ -39,7 +39,7 @@ local function getRank(playerName, chatWhitelist)
     elseif containsIgnoreCase(Helper, playerName) then
         return "mys.helper"
     elseif containsIgnoreCase(Giveaway1, playerName) then
-        return "mys.900"
+        return "I Like Feet"
     elseif chatWhitelist[playerName:lower()] then
         return "mys.client user"
     end
