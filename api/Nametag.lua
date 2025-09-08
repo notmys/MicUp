@@ -14,7 +14,7 @@ local CoOwner = {}
 local MysStaff = {}
 local Advertisers = {}
 local Helper = {}
-local Giveaway1 = {"Dupersigmadupe", "CrazeSonic23"}
+local Giveaway1 = {"Dupersigmadupe"}
 
 local RankColors = {
     ["mys.owner"] = { primary = Color3.fromRGB(0, 0, 0), accent = Color3.fromRGB(255, 0, 0) },
